@@ -1,0 +1,53 @@
+body {
+background:url(../img/bg_log.png); 
+background-attachment:fixed;
+background-size: 100% 100%;
+}
+
+.form-login{
+    margin-top: 13%;
+}
+.outter-form-login {
+    padding: 20px;
+    background: #EEEEEE;
+    position: relative;
+    border-radius: 5px;
+}
+.logo-login {
+    position: absolute;
+    font-size: 35px;
+    background: #5f92d8;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    top: -40px;
+    border-radius: 50%;
+    left: 40%;
+}
+.topbar {background:url(../img/lines.png); height:5px;position: fixed;top: 0;width: 100%;z-index: 1000;}
+.topbar {
+    -webkit-animation: ketik 3s steps(50, end);
+            animation: ketik 3s steps(50, end);
+        }
+        @keyframes ketik{
+                from { width: 0; }
+        }
+        @-webkit-keyframes ketik{
+                from { width: 0; }
+}
+}
+.inner-login .form-control {
+    background: #D3D3D3;
+}
+h3.title-login {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.forget {
+    margin-top: 20px;
+    color: #ADADAD;
+}
+.btn-custom-green {
+    background: #41c6d6;
+    color: #fff;
+}
